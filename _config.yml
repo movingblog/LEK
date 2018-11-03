@@ -73,7 +73,7 @@ author:
 social-network-links:
   rss: true
   email: "lekus07@yahoo.com"
-  facebook: leksyde23
+  facebook: lekus07
   github: lek-syde
   twitter: lekus07
 #  reddit: yourname
@@ -99,7 +99,7 @@ share-links-active:
 
 # How to display the link to the website in the footer
 # Remove this if you don't want a link in the footer
-url-pretty: "MyWebsite.com"  # eg. "deanattali.com/beautiful-jekyll"
+url-pretty: "leksyde.com"  # eg. "deanattali.com/beautiful-jekyll"
 
 # --- Web Statistics Section --- #
 
