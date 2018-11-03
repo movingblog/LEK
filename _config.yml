@@ -14,7 +14,7 @@ baseurl: ""
 # Of course don't forget to change the username and projectname to YOUR username and project
 
 # Name of website
-title: My website
+title:
 
 # Short description of your site
 description: just 1s and 0s!
@@ -72,10 +72,10 @@ author:
 # If you want to add a new link that isn't here, you'll need to also edit the file _data/SocialNetworks.yml
 social-network-links:
   rss: true
-  email: "someone@example.com"
-  facebook: daattali
-  github: daattali
-  twitter: daattali
+  email: "lekus07@yahoo.com"
+  facebook: leksyde23
+  github: lek-syde
+  twitter: lekus07
 #  reddit: yourname
 #  google-plus: +DeanAttali
 #  linkedin: daattali
