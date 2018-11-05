@@ -1,9 +1,9 @@
 ---
 layout: page
 title: About me
-subtitle: Why you'd want to go on a date with me :blush:
+subtitle: Why you'd want to go on a date with me 
 ---
 
-My name is Folayan Olalekan. :satisfied: 
+My name is Folayan Olalekan.  
 
 
