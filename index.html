@@ -7,6 +7,39 @@ use-site-title: true
 <div class="list-single-main-wrapper fl-wrap" id="sec2">
 <div class="posts-list">
   {% for post in paginator.posts %}
+	<article>
+                                        
+                                            <div class="list-single-main-item fl-wrap">
+                                                <div class="list-single-main-item-title fl-wrap">
+                                                    <h3><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}.</a></h3>
+                                                </div>
+						     {% if post.subtitle %}
+						    <p> {{ post.subtitle }}</p>
+						    {% endif %}
+                                                <div class="post-author"><a href="#"><img src="images/avatar/1.jpg" alt=""><span>By , Alisa Noory</span></a></div>
+                                                <div class="post-opt">
+                                                    <ul>
+                                                        <li><i class="fa fa-calendar-check-o"></i> <span>25 April 2018</span></li>
+                                                        <li><i class="fa fa-eye"></i> <span>264</span></li>
+                                                        <li><i class="fa fa-tags"></i> <a href="#">Photography</a> , <a href="#">Design</a> </li>
+                                                    </ul>
+                                                </div>
+                                                <span class="fw-separator"></span>
+                                                <div class="list-single-main-item-title fl-wrap">
+                                                    <h3>Tags</h3>
+                                                </div>
+                                                <div class="list-single-tags tags-stylwrap blog-tags">
+                                                    <a href="#">Event</a>
+                                                    <a href="#">Conference</a>
+                                                    <a href="#">Strategies</a>
+                                                    <a href="#">Trends</a>
+                                                    <a href="#">Schedule</a>
+                                                    <a href="#">Speak</a>                                                                               
+                                                </div>
+                                                <span class="fw-separator"></span>
+                                                <a href="blog-single.html" class="btn transparent-btn float-btn">Read more<i class="fa fa-eye"></i></a>
+                                            </div>
+                                        </article>
   <article class="post-preview">
     <a href="{{ post.url | prepend: site.baseurl }}">
 	  <h2 class="post-title">{{ post.title }}</h2>
