@@ -19,7 +19,7 @@ use-site-title: true
                                                 <div class="post-author"><a href="#"><img src="images/avatar/1.jpg" alt=""><span>By , Alisa Noory</span></a></div>
                                                 <div class="post-opt">
                                                     <ul>
-                                                        <li><i class="fa fa-calendar-check-o"></i> <span>25 April 2018</span></li>
+                                                        <li><i class="fa fa-calendar-check-o"></i> <span>{{ post.date | date: "%B %-d, %Y" }}</span></li>
                                                         <li><i class="fa fa-eye"></i> <span>264</span></li>
                                                         <li><i class="fa fa-tags"></i> <a href="#">Photography</a> , <a href="#">Design</a> </li>
                                                     </ul>
@@ -37,8 +37,10 @@ use-site-title: true
                                                     <a href="#">Speak</a>                                                                               
                                                 </div>
                                                 <span class="fw-separator"></span>
-                                                <a href="blog-single.html" class="btn transparent-btn float-btn">Read more<i class="fa fa-eye"></i></a>
-                                            </div>
+						      {% if post.content != post.excerpt or excerpt_word_count > site.excerpt_length %}
+                                                <a href="{{ post.url | prepend: site.baseurl }}" class="btn transparent-btn float-btn">Read more<i class="fa fa-eye"></i></a>
+                                           	 {% endif %}
+							</div>
                                         </article>
   <article class="post-preview">
     <a href="{{ post.url | prepend: site.baseurl }}">
