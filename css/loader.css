@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+#loaderss {
+  display: block;
+  height: 100px;
+  width: 100px;
+  border-radius: 100%;
+  border-top: 5px solid transparent;
+  border-right: 4px double blue;
+  border-left: 4px double blue;
+  border-bottom: 5px solid transparent;
+  animation: libot 1s linear infinite;
+}
+
+@keyframes libot{
+  form {
+    transform: rotate(0deg);
+  } 50% {
+    transform: rotate(50deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
